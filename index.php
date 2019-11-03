@@ -1,4 +1,7 @@
 <?php
+
+
+
 include_once "config.php";
 include_once "functions.php";
 //define("GOOGLE_API", 'https://maps.googleapis.com/maps/api/geocode/json?address='.$new.'&key=AIzaSyAx9GeZs8eRi3uWzPXajCTR7r32kYxVqB0');
@@ -8,9 +11,10 @@ include_once "functions.php";
 //$coordinates = $locationData->results[0]->geometry->location;
 //$coordinates = $coordinates->lat.','.$coordinates->lng;
 //var_dump($coordinates);
-//define("GOOGLE_API", 'https://maps.googleapis.com/maps/api/geocode/json?address='.$new.'&key=AIzaSyAx9GeZs8eRi3uWzPXajCTR7r32kYxVqB0');
+//define("GOOGLE_API",  jjj 'https://maps.googleapis.com/maps/api/geocode/json?address='.$new.'&key=AIzaSyAx9GeZs8eRi3uWzPXajCTR7r32kYxVqB0');
 
 $new=htmlspecialchars($_GET['city']);
+
 
 if (empty($new)){
     $new ='Odessa';
