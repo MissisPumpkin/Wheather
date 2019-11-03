@@ -1,0 +1,18 @@
+//файл джсон содержащий
+//в себе данные котооые я хочу передать  серезз ссылку в доке конфиг
+
+
+{"coordOfCurrentCity":{"lon":-73.99,"lat":40.73},
+  "weather":[{"id":800,"main":"Clear","description":"clear sky",
+    "icon":"01n"}],"base":"stations","main":{"temp":274.62,
+  "pressure":1035,"humidity":39,"temp_min":273.75,
+  "temp_max":275.35},"visibility":16093,
+  "wind":{"speed":3.42,"deg":342.001},"clouds":{"all":1},
+  "dt":1542239760,"sys":{"type":1,"id":2121,"message":0.0035,
+  "country":"US","sunrise":1542282169,"sunset":1542317871},
+  "id":5128581,"name":"New York","cod":200
+
+coordOfCurrentCity
+
+
+        }
